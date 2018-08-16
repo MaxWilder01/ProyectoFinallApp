@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Finanzas App</string>
+    <string name="iniciar_sesion">Iniciar Sesión</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="correo_electronico">Correo Electrónico</string>
+    <string name="cohete">Cohete</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="inicio">Inicio</string>
+    <string name="para_utilizar_esta_semana">Para utilizar esta semana</string>
+    <string name="ingresos">Ingresos</string>
+    <string name="gastos">Gastos</string>
+    <string name="agregar_gasto">Agregar gasto</string>
+    <string name="agregar_ingreso">Agregar Ingreso</string>
+    <string name="agregar">Agregar</string>
+    <string name="camara">Cámara fotográfica</string>
+    <string name="empty" />
+    <string name="ultimos_movimientos">Últimos Movimientos</string>
+    <string name="flechita">flechita</string>
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:paddingTop="1dp"
+    android:paddingBottom="1dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:layout_editor_absoluteY="81dp">
+
+    <LinearLayout
+        android:id="@+id/layoutTransacciones"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtComentarioIngresoRecycler"
+            android:layout_width="130dp"
+            android:textSize="14sp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_weight="1"
+            android:text="" />
+
+        <ImageView
+            android:id="@+id/imgIngresoRecycler"
+            android:layout_width="20dp"
+            android:layout_height="18dp"
+            android:layout_weight="1"
+            android:contentDescription="@string/flechita"
+            app:srcCompat="@mipmap/ic_ingreso" />
+
+        <TextView
+            android:id="@+id/txtCantidadIngresoRecycler"
+            android:layout_width="80dp"
+            android:textSize="14sp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="1"
+            android:text="" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
